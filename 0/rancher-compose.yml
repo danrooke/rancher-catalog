@@ -4,3 +4,5 @@
   description: Landoop
   uuid: landoop-0
   minimum_rancher_version: v0.59.0
+landoop:
+  scale: 1
