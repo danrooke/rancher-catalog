@@ -1,0 +1,4 @@
+jira:
+  ports:
+  - 8080
+  image: cptactionhank/atlassian-jira:latest
