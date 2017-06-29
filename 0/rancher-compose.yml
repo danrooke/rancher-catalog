@@ -1,0 +1,6 @@
+.catalog:
+  name: Landoop
+  version: 0.0.1
+  description: Landoop
+  uuid: landoop-0
+  minimum_rancher_version: v0.59.0

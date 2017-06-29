@@ -1,0 +1,9 @@
+connectlb:
+  ports:
+  - 3030
+  - 9092
+  - 8081
+  - 8082
+  - 8083
+  - 2181
+  image: landoop/fast-data-dev:latest
