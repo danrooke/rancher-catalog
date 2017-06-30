@@ -4,5 +4,11 @@
   description: JIRA
   uuid: jira-0
   minimum_rancher_version: v0.59.0
+  questions:
+    - variable: "db_link"
+      description: "If you would like to use an external Postgresql service you can link it here"
+      label: "Postgresql service/stack"
+      required: false
+      type: "service"
 jira:
   scale: 1
