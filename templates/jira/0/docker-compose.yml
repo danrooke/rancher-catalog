@@ -2,3 +2,5 @@ jira:
   ports:
   - 8080
   image: cptactionhank/atlassian-jira:latest
+  external_links:
+    - ${db_link}:postgres

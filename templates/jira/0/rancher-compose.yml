@@ -4,5 +4,11 @@
   description: JIRA
   uuid: jira-0
   minimum_rancher_version: v0.59.0
+  questions:
+    - variable: "db_link"
+      description: "Choose the postgresql service to use"
+      label: "Postgresql service/stack"
+      required: true
+      type: "service"
 jira:
   scale: 1
